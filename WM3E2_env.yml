@@ -1,0 +1,29 @@
+name: WM3E2
+
+channels:
+    - conda-forge
+
+dependencies:
+    - python=3.10
+    - numpy
+    - matplotlib
+    - scipy
+    - pandas
+    - bokeh
+    - notebook
+    - scikit-learn
+    - scikit-image
+    - pip
+    - ipywidgets
+    - pytest-cov
+    - sortedcontainers
+    - pillow
+    - qpsolvers
+    - networkx
+    - nltk 
+    - spacy
+    - pip:
+        - ipythonblocks
+        - image
+        - pulp
+        - opencv-contrib-python
